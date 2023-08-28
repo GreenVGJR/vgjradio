@@ -3,7 +3,7 @@
 |---|---|---|
 |root||db_user|
 
-<i>All Stream Materials are not owned by me. Credit on hyperlink.</i>
+<i>All Stream Materials are not owned by me. Credit in hyperlink.</i>
 
 <img src="https://cdn.discordapp.com/attachments/1055832957916557332/1145827210767368234/image.png" loading="lazy" href="Main"/>
 <img src="https://cdn.discordapp.com/attachments/1055832957916557332/1145827577529909389/image.png" loading="lazy" href="Main"/>

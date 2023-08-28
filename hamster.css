@@ -1,0 +1,183 @@
+body {
+   background-image: url('image/mainbg.jpg');
+   background-size: cover;
+   background-color: white;
+   background-attachment: fixed;
+}
+
+/*
+DARK MODE PLUGIN
+*/
+html {
+   color-scheme: dark !important;
+}
+
+::-webkit-scrollbar {
+   background-color: #202324;
+   color: #aba499;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #454a4d;
+}
+
+::-webkit-scrollbar-corner {
+   background-color: #181a1b;
+}
+
+::selection {
+   background-color: #004daa !important;
+   color: #e8e6e3 !important;
+}
+
+.button {
+  background-color: white;
+  border-radius: 100px;
+  color: black;
+  font-family: CerebriSans-Regular, Roboto;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 500ms;
+  border: 0;
+  font-size: 16px;
+}
+
+.button:hover {
+   transform: scale(1.1);
+}
+
+.button a {
+   transition: all 500ms;
+}
+
+.button a:hover {
+  color: lime;
+}
+
+header img {
+   margin: -15px;
+   width: 120%;
+   height: 120%;
+   max-width: 102%;
+   max-height: 100%;
+   position: relative;
+}
+
+.background {
+   position: fixed;
+   margin: 50% 50px 50% 50px;
+   padding: auto;
+   background: black;
+   border-radius: 20px;
+   width: 16%;
+   height: 7%;
+}
+
+.atas li {
+   display: inline;
+   font-size: 30px;
+   text-align: center;
+   font-family: sans-serif;
+}
+
+.atas li a {
+   padding: 10px;
+   color: orange;
+}
+
+.atas li a:hover {
+   color: white;
+   transition: 0.2s linear;
+}
+
+.header {
+   font-size: 35px;
+   margin-left: 20px;
+   display: center;
+   position: sticky;
+   text-align: left;
+   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.header b {
+   color: black;
+   transition: all 200ms;
+}
+
+.header b:hover {
+   color: purple;
+   transition: 0.2s;
+   transition-timing-function: ease-in-out;
+   font-size: 50px;
+}
+
+.header h5 {
+   margin: -5px auto -5px auto;
+   transition: all 200ms;
+   color: blueviolet;
+}
+
+.header h5:hover {
+   transition: 0.2s;
+   margin: -5px auto -5px auto;
+   color: black;
+}
+
+.secheader {
+   font-size: 35px;
+   position: sticky;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+.header p {
+   color: blueviolet;
+   text-shadow: 5px solid black;
+}
+
+#inp {
+	width: 70%;
+	height: auto;
+	margin: 20px;
+   padding: 20px;
+   background-image: linear-gradient(to bottom, blueviolet, rgb(0, 0, 0, 20));
+   border-radius: 30px;
+   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+   opacity: 90%;
+}
+
+.button {
+   float: right;
+   justify-content: center;
+}
+
+.section1 a {
+   color: white;
+}
+
+.section1 img {
+      margin-left: 120px;
+      float: center;
+      width: 10%;
+      height: 10%;
+      background: #555;
+      border-radius: 10px;
+      transition: all 200ms;
+}
+
+.section1 img:hover, .section2 img:hover {
+   transform: scale(1.10);
+}
+
+.section2 a {
+   color: white;
+}
+
+.section2 img {
+   float: center;
+   width: 15%;
+   height: 15%;
+   background: #555;
+   border-radius: 10px;
+   transition: all 200ms;
+}

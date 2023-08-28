@@ -1,0 +1,50 @@
+body {
+   font-family: CerebriSans-Regular, Roboto;
+   background-image: url('image/accountpage.png');
+   background-size: cover;
+   background-color: white;
+}
+
+#thisprofileright {
+   float: right;
+   width: 20%;
+	height: auto;
+	margin-top: 40px;
+   padding: 20px;
+   background-image: linear-gradient(to right, purple, rgb(0,0,0,0));
+   border-radius: 30px;
+   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+   opacity: 90%;
+}
+
+.header1 {
+   text-align: center;
+   padding-bottom: 10px;
+   padding-left: 10px;  
+}
+
+.header1 h3 {
+   margin-top: -20px;
+   color: yellow;
+}
+
+#thisprofileleft {
+   float: left;
+   width: 30%;
+	height: auto;
+	margin: 40px;
+   padding: 20px;
+   background-image: linear-gradient(to right, rgb(112, 37, 181), blueviolet);
+   border-radius: 30px;
+   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+   opacity: 90%;
+}
+
+.header2 {
+   text-align: center;
+}
+
+.textheader2 {
+   text-align: left;
+   color: lightsalmon;
+}
